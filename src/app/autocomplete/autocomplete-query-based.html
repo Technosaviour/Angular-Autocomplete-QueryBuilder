@@ -1,0 +1,11 @@
+<form>
+  <mat-form-field class="example-40-width">
+    <input type="hidden" [formControl]="hiddenCtrl">
+    <input type="text" placeholder="Advance Search with functionality" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" [displayWith]="displayFn.bind(this)">
+      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+        {{option}}
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+</form>
