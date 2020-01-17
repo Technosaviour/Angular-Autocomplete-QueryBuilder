@@ -1,5 +1,5 @@
 {
-  "name": "material-aio-example",
+  "name": "dynamic-autocomplete",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
