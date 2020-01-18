@@ -13,5 +13,6 @@ USAGE<br>
 npm install<br>
 npm start<br>
 browse - http://localhost:4200 <br>
+Search eg -> Name = Biswa And Company = Youtube Or Language = DotNet
 # Demo
 ![Dynamic Meterial Angular DEMO](Demo.gif)
